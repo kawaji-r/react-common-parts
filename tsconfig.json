@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "target": "ES6",
+    "module": "ESNext",
+    "lib": ["DOM", "ES6"],
+    "jsx": "react-jsx",
     "declaration": true,
-    "newLine": "lf",
-    "pretty": true,
-    "outDir": "./dist",
+    "outDir": "dist",
     "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "jsx": "preserve"
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/*"],
+  "include": ["src/index.ts"],
+  "exclude": ["node_modules", "dist"]
 }
+

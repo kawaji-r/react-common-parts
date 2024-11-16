@@ -1,7 +1,4 @@
 node_modules
-<<<<<<< HEAD
-=======
 memo/**
 *.memo
 *.memo.md
->>>>>>> master
