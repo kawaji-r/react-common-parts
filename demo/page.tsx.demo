@@ -1,0 +1,21 @@
+import { PageView, CenterText } from 'react-common-parts'
+export default function Home() {
+  return (
+    <>
+      <PageView>
+        <CenterText className="bg-red-100">
+          <h1>Welcome to Demo Site</h1>
+          <p>これは私のデモサイトです。</p>
+          <p>使い方を学んでいってください。</p>
+        </CenterText>
+      </PageView>
+      <div className="h-96">
+        <CenterText className="bg-blue-100">
+          <h1>Welcome to Demo Site</h1>
+          <p>これは私のデモサイトです。</p>
+          <p>使い方を学んでいってください。</p>
+        </CenterText>
+      </div>
+    </>
+  )
+}
