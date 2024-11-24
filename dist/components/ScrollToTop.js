@@ -20,24 +20,23 @@ export const ScrollToTop = () => {
             behavior: 'smooth'
         });
     };
-    // <Image src={arrow} alt="ページの先頭へスクロール矢印" width={100} height={30} />
     return (_jsxs(_Fragment, { children: [_jsx("style", { children: `@keyframes fadeup {
             0% {
               transform: translateY(30px);
               opacity: 0;
             }
             80% {
-              opacity: 0.8;
+              opacity: 0.9;
             }
             100% {
-              opacity: 0.8;
+              opacity: 0.9;
               transform: translateY(0);
             }
           }
           @keyframes fadedown {
             0% {
               transform: translateY(0);
-              opacity: 0.8;
+              opacity: 0.9;
             }
             100% {
               transform: translateY(30px);
