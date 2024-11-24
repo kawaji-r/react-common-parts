@@ -3,7 +3,7 @@ export const CenterText: thisType = (props) => {
   const { className, children } = props
   return (
     <div className={className} style={{ display: 'grid', placeItems: 'center', height: '100%' }}>
-      <div style={{ width: '100%' }}>{children}</div>
+      <div style={{ width: '100%', textAlign: 'center' }}>{children}</div>
     </div>
   )
 }
